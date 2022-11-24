@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-
+import sys
 import time
 import re
 import random
+import fileinput
 
 
 def SNOOZE(x):
@@ -670,3 +671,22 @@ def NEW(MSG, COMPLEXITY, QUIET=None):
         else:
             print(MSG)
             return
+
+def main():
+
+    INPUT = []
+
+    for line in fileinput.input():
+        INPUT += line
+
+    MSG = "".join(INPUT)
+    NEW(MSG,9)
+
+        
+
+if __name__ == '__main__':
+
+    main()
+
+
+
