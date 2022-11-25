@@ -1,0 +1,3 @@
+
+Also easy to pass a file as an arg!
+
