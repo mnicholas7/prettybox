@@ -44,7 +44,7 @@ Generate random snowflakes of ascii boxes around your shell output
 
  =>
 ```
-![testing](/Image9.png)
+![testing]([/Image9.jpg)]
 
 
 ```
